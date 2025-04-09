@@ -1,0 +1,11 @@
+{
+  "name": "learn_sphere_info_json_backend",
+  "version": "1.0.0",
+  "description": "this the backend of adding data of all apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "go "
+  },
+  "author": "sobhan sahoo",
+  "license": "ISC"
+}
