@@ -16,6 +16,10 @@ app.use(express.urlencoded({extended : true, limit  : "16mb"}))
 app.use(express.static("public"))
 app.use(cookieParser());
 
+import apiRouter from "./routes/api.routes.js"
+
+app.use("/api/v1/apiuploads",apiRouter)
+
 export {
     app
 }
